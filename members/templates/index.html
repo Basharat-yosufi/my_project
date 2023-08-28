@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    body{
+        background-color: #75ea83;
+        margin: 0;
+        padding: 0;
+    }
+</style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div>
+                <h1>Microsoft Bing</h1>
+                <a href="/chat">chat</a>
+                <a href="/images">images</a>
+                <a href="/videos">videos</a>
+                <a href="/maps">maps</a>
+                <a href="/news">news</a>
+
+            </div>
+        </nav>
+    </header>
+   
+      
+    <!DOCTYPE html>
+    <html>
+    <body>
+    
+    <h1>Members</h1>
+    <h2> emil referns view</h2>
+    <h2> Tobias referns view</h2>
+    <h2>limnus referns view</h2>
+    <h2>lene referns view </h2>
+
+    
+    <h2> stalikken referns view</h2>
+      
+    <ul>
+      {% for x in mymembers %}
+        <li>{{ x.firstname }} {{ x.lastname }}</li>
+      {% endfor %}
+    </ul>
+    
+    </body>
+    </html>
+
+
+
+
+
+
+</body>
+</html>

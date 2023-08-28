@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+<head>
+
+  <link rel="stylesheet" href=" {% static 'myfirst.css'}">
+
+</head>
+<h1 class="main-tital"> </h1>
+  
+<ul>
+  {% for x in mymembers %}
+   
+
+  <div> 
+    <nav></nav>
+  </div>
+
+<li> <span></span>{{ x.firstname }} {{ x.lastname }} <span> {{ x.phon}}  {{ naumber}}</span></li>
+  {% endfor %}
+</ul>
+
+</body>
+</html>
